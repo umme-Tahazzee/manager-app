@@ -7,7 +7,7 @@ const ProjectsHeader = () => {
     return (
         <div className='flex justify-between'>
             <SearchBar />
-            <AddProjectsButton/>
+            <AddProjectsButton />
         </div>
     );
     function SearchBar() {
