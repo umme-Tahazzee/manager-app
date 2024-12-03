@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sidebar from "./Components/Sidebar";
@@ -16,7 +16,7 @@ export default function Page() {
           <Routes>
             {/* Route for AllProjects */}
             <Route path="/" element={<AllProjects />} />
-            
+
             {/* Route for AllTasks */}
             <Route path="/all-tasks" element={<AllTask />} />
           </Routes>
@@ -25,3 +25,4 @@ export default function Page() {
     </Router>
   );
 }
+

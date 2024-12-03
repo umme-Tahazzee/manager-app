@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import { Link } from "react-router-dom";
 import SplitscreenIcon from "@mui/icons-material/Splitscreen";
@@ -8,12 +8,15 @@ import TaskAltIcon from "@mui/icons-material/TaskAlt";
 
 const Sidebar = () => {
   return (
-    <div className="w-[97px] h-screen py-8 bg-white flex flex-col items-center justify-between border-r">
+    <div
+      className="w-[97px] h-screen py-8 bg-white flex flex-col 
+    items-center justify-between max-sm:hidden"
+    >
       <Logo />
       <Menu />
-      <div className="flex items-center justify-center mt-8">
-        <Profile />
-      </div>
+      <Profile />
+      {/* <div className="flex items-center justify-center mt-8">
+      </div> */}
     </div>
   );
 

@@ -3,7 +3,7 @@ import  SplitscreenIcon  from "@mui/icons-material/Splitscreen";
 
 const StateRightSideBar = () => {
   return (
-    <div className="w-[22%] flex justify-end items-center ">
+    <div className="w-[22%] flex justify-end items-center max-lg:hidden ">
       {/* white background  */}
       <div className=" h-[92%] w-[94%] bg-white rounded-l-3xl p-3 flex flex-col">
         {/* Header  */}

@@ -6,17 +6,17 @@ import CircleIcon from "@mui/icons-material/Circle";
 
 const SingleProjectsCard = () => {
   return (
-    <li className="w-[300px] flex flex-col gap-8 rounded-lg p-7 bg-white ">
+    <li className="w-[300px] max-md:w-[96%]   flex flex-col gap-8 rounded-lg p-7 bg-white ">
       <ProjectCartHeader />
       <ProjectCardBody />
       <ProjectsCardFooter />
     </li>
   );
-
+ 
   function ProjectCartHeader() {
     return (
       <div className="flex justify-between items-center">
-        <div className=" flex gap-3 items-center border">
+        <div className=" flex gap-3 items-center ">
           {/* projects icon  */}
           <div className="bg-orange-600 flex justify-center items-center w-[38px] h-[38px] rounded-md ">
             <SplitscreenIcon sx={{ fontSize: "20px" }} className="text-white" />
